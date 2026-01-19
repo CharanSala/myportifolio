@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Resume from "./Pages/Resume";
 import Contact from "./Pages/Contact";
-import Footer from "./components/Footer";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
