@@ -4,8 +4,10 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 
+const basename = import.meta.env.PROD ? "/Portifolio" : "/";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/Portifolio">
+  <BrowserRouter basename={basename}>
     <App />
   </BrowserRouter>,
 );
