@@ -37,7 +37,7 @@ export default function Resume() {
           </div>
 
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download="Charan_Resume.pdf"
             className="p-4 bg-[#3b3df2] text-white rounded-xl shadow-lg shadow-blue-200 hover:bg-[#2e2fd9] transition-all transform hover:-translate-y-1 flex items-center justify-center group"
             title="Download Resume"

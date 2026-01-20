@@ -69,7 +69,10 @@ export default function Home() {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap gap-5 mb-12">
-            <a href="/resume.pdf" download="Charan_Resume.pdf">
+            <a
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
+              download="charan.pdf"
+            >
               <button className="px-8 py-4 bg-[#3b3df2] text-white font-bold rounded-xl shadow-lg shadow-blue-200 hover:bg-[#2e2fd9] transition-all transform hover:-translate-y-1">
                 Download Resume
               </button>
