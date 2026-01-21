@@ -8,8 +8,7 @@ import Footer from "./Components/Footer";
 
 export default function App() {
   return (
-    // Add basename here for GitHub Pages
-    <BrowserRouter basename="/myportifolio">
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
